@@ -1,0 +1,45 @@
+.about {
+  background: url('../images/about.svg');
+  background-color: #f6f6ef;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #F4F4F4;
+}
+
+.about .content {
+  padding: 100px 60px 50px 60px;
+  text-align: center;
+}
+
+.about .content img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.about .content .subtitle {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.about .content h2 {
+  font-family: 'Crimson Text', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: -0.04em;
+  margin-bottom: 24px;
+}
+
+.about .content p {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}

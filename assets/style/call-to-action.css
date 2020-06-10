@@ -1,5 +1,5 @@
 .call-to-action {
-  height: 350px;
+  height: 450px;
   background: #f6f6ef;
   text-align: center;
 }
@@ -8,7 +8,7 @@
   height: 30px;
   width: 30px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .call-to-action p {
