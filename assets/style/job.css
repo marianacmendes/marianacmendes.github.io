@@ -5,32 +5,28 @@
   color: #416A6A;
 }
 
-.job .subtitle {
-  font-family: 'Karla', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.job span {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 140%;
-  margin-bottom: 16px;
-  display: block;
+  line-height: 22px;
 }
 
-.job h2 {
+.job h3 {
+  display: block;
   font-family: 'Crimson Text', serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 40px;
-  line-height: 100%;
+  line-height: 40px;
   letter-spacing: -0.045em;
   margin-bottom: 40px;
 }
 
-.job p {
-  font-family: 'Karla', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.job .main {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 140%;
+  line-height: 22px;
 }
 
 .job ul {
@@ -48,14 +44,16 @@
 }
 
 .job ul li h3 {
+  display: flex;
+  align-items: center;
   font-family: 'Crimson Text', serif;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 26px;
-  line-height: 35px;
+  line-height: 36px;
   letter-spacing: -0.04em;
   position: relative;
   padding-left: 44px;
+  margin-bottom: 14px;
 }
 
 .job ul li h3:before {
@@ -68,5 +66,9 @@
 }
 
 .job ul li p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
   padding-left: 44px;
 }

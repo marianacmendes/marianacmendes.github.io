@@ -1,0 +1,34 @@
+header {
+  background: url('../images/header.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #faf3e6;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+header ul li:last-of-type {
+  margin: 0;
+}
+
+header ul li a {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #618989;
+}

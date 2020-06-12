@@ -1,0 +1,43 @@
+.contact {
+  background: url('../images/contact.svg');
+  background-repeat: no-repeat;
+  background-color: #CCDEDE;
+  padding: 100px 60px;
+  color: #8D6530;
+}
+
+.contact span {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
+.contact p {
+  font-family: 'Crimson Text', serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: -0.04em;
+  margin-bottom: 24px;
+}
+
+.contact a {
+  width: 215px;
+  height: 40px;
+  background: #8D6530;
+  border-radius: 6px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 24px;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}

@@ -1,5 +1,7 @@
 @import './main.css';
+@import './header.css';
 @import './hero.css';
 @import './call-to-action.css';
 @import './about.css';
 @import './job.css';
+@import './contact.css';

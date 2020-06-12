@@ -1,6 +1,6 @@
 .about {
   background: url('../images/about.svg');
-  background-color: #f6f6ef;
+  background-color: #faf3e6;
   background-size: cover;
   background-repeat: no-repeat;
   color: #F4F4F4;
@@ -17,29 +17,25 @@
   margin-bottom: 50px;
 }
 
-.about .content .subtitle {
-  font-family: 'Karla', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.about .content span {
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  line-height: 140%;
+  line-height: 22px;
 }
 
 .about .content h2 {
   font-family: 'Crimson Text', serif;
-  font-style: normal;
-  font-weight: 600;
   font-size: 26px;
-  line-height: 35px;
+  font-weight: 400;
+  line-height: 36px;
   letter-spacing: -0.04em;
   margin-bottom: 24px;
 }
 
 .about .content p {
-  font-family: 'Karla', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 140%;
+  line-height: 22px;
   margin-bottom: 15px;
 }
