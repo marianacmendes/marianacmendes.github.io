@@ -1,9 +1,10 @@
 .contact {
   background: url('../images/contact.svg');
   background-repeat: no-repeat;
-  background-color: #CCDEDE;
+  background-color: #ccdede;
+  background-size: cover;
   padding: 100px 60px;
-  color: #8D6530;
+  color: #8d6530;
 }
 
 .contact span {
@@ -24,10 +25,10 @@
   margin-bottom: 24px;
 }
 
-.contact a {
+.contact .whats-btn {
   width: 215px;
   height: 40px;
-  background: #8D6530;
+  background: #8d6530;
   border-radius: 6px;
   font-family: 'Karla', sans-serif;
   font-weight: 700;
@@ -40,4 +41,16 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+.contact .instagram-link {
+  height: 24px;
+  width: 24px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.contact .instagram-link img {
+  height: 24px;
 }

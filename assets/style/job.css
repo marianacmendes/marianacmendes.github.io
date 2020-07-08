@@ -1,8 +1,8 @@
 .job {
-  background: #CCDEDE;
+  background: #ccdede;
   padding: 80px 60px;
   text-align: center;
-  color: #416A6A;
+  color: #416a6a;
 }
 
 .job span {
@@ -27,20 +27,20 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 10px;
 }
 
 .job ul {
-  padding-top: 80px;
   text-align: left;
 }
 
 .job ul li {
- list-style: none;
- margin-bottom: 60px;
+  list-style: none;
+  margin-bottom: 30px;
 }
 
-.job ul li:last-of-type {
-  margin-bottom: 0;
+.job ul li p {
+  margin-bottom: 8px;
 }
 
 .job ul li h3 {
