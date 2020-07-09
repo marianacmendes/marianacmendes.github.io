@@ -74,6 +74,10 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .job {
+    padding: 80px 320px;
+  }
+
   .job ul {
     display: flex;
   }
