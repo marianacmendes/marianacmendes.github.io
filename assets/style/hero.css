@@ -86,3 +86,9 @@
 .hero .instagram-link img {
   height: 24px;
 }
+
+@media only screen and (min-width: 600px) {
+  .hero .warn {
+    width: 300px;
+  }
+}

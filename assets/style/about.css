@@ -3,7 +3,7 @@
   background-color: #faf3e6;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
 .about .content {
@@ -38,4 +38,47 @@
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  .about {
+    background: url('../images/about-desktop.svg');
+    background-color: #faf3e6;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .about .content {
+    padding: 50px 60px;
+  }
+
+  .about .content .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about .content .info img {
+    margin: 0;
+  }
+
+  .about .content .info h2 {
+    margin-bottom: 0;
+  }
+
+  .about .content .info div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 56px;
+  }
+
+  .about .content .details {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .about .content .details p {
+    max-width: 240px;
+  }
 }

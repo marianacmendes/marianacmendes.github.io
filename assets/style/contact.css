@@ -54,3 +54,43 @@
 .contact .instagram-link img {
   height: 24px;
 }
+
+.contact .footer {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .contact {
+    background: url('../images/contact-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: #ccdede;
+    background-size: cover;
+    display: flex;
+    padding: 100px 60px 50px 60px;
+  }
+
+  .contact .default {
+    width: 310px;
+    flex: 1;
+  }
+
+  .contact .footer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .contact .footer .address {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .contact .footer .address span {
+    margin-bottom: 0;
+  }
+
+  .contact .footer .info {
+    padding-top: 20px;
+  }
+}

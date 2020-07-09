@@ -72,3 +72,22 @@
   line-height: 22px;
   padding-left: 44px;
 }
+
+@media only screen and (min-width: 600px) {
+  .job ul {
+    display: flex;
+  }
+
+  .job ul li {
+    flex: 1;
+  }
+
+  .job ul li:first-of-type {
+    padding-right: 50px;
+  }
+
+  .job .main {
+    margin-bottom: 14px;
+    text-align: left;
+  }
+}
