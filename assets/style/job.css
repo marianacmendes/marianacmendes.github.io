@@ -28,6 +28,7 @@
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .job ul {
@@ -75,7 +76,7 @@
 
 @media only screen and (min-width: 600px) {
   .job {
-    padding: 80px 320px;
+    padding: 80px 100px;
   }
 
   .job ul {

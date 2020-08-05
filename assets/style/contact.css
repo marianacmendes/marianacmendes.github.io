@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-color: #ccdede;
   background-size: cover;
-  padding: 100px 60px;
+  padding: 100px 0;
   color: #8d6530;
 }
 
@@ -14,15 +14,21 @@
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 16px;
+  padding-left: 60px;
 }
 
-.contact p {
-  font-family: 'Crimson Text', serif;
+.contact .footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.contact .footer iframe {
+  width: calc(100% - 20px);
+}
+
+.contact .footer span {
   font-weight: 600;
-  font-size: 26px;
-  line-height: 35px;
-  letter-spacing: -0.04em;
-  margin-bottom: 24px;
 }
 
 .contact .whats-btn {
@@ -55,10 +61,6 @@
   height: 24px;
 }
 
-.contact .footer {
-  display: none;
-}
-
 @media only screen and (min-width: 600px) {
   .contact {
     background: url('../images/contact-desktop.svg');
@@ -66,7 +68,7 @@
     background-color: #ccdede;
     background-size: cover;
     display: flex;
-    padding: 100px 320px 50px 320px;
+    padding: 100px 100px 50px 100px;
   }
 
   .contact .default {

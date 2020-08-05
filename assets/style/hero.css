@@ -91,4 +91,9 @@
   .hero .warn {
     width: 300px;
   }
+
+  .hero .quote {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
