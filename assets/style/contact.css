@@ -7,6 +7,13 @@
   color: #8d6530;
 }
 
+.contact .contact-options {
+  padding-left: 60px;
+  font-weight: 600;
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 16px;
+}
+
 .contact span {
   display: block;
   font-family: 'Work Sans', sans-serif;
@@ -68,12 +75,8 @@
     background-color: #ccdede;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     padding: 100px 100px 50px 100px;
-  }
-
-  .contact .default {
-    width: 310px;
-    flex: 1;
   }
 
   .contact .footer {
