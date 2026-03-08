@@ -1,0 +1,60 @@
+.new-about {
+    background: var(--light-red);
+    color: var(--deep-green);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 64px;
+}
+
+.new-about .section-container.new-about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.new-about .new-about-title {
+    font-family: var(--font-family-primary);
+    font-size: clamp(24px, 4vw, 32px);
+    font-weight: 700;
+    color: var(--deep-green);
+}
+
+.new-about .new-about-profile-image {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.new-about .new-about-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.new-about .new-about-subtitle {
+    font-family: var(--font-family-primary);
+    font-size: clamp(16px, 2.5vw, 20px);
+    font-weight: 400;
+    color: var(--deep-green);
+}
+
+.new-about-description-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+}
+
+.new-about .new-about-description {
+    font-family: var(--font-family-primary);
+    font-size: clamp(15px, 2vw, 18px);
+    font-weight: 400;
+    color: var(--deep-green);
+    text-align: center;
+}

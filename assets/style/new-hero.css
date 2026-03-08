@@ -1,0 +1,85 @@
+.new-hero {
+    background: var(--deep-green);
+    height: 100vh;
+    height: 100svh;
+    color: var(--light-red);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.new-hero .section-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.new-hero .hero-logo {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-inline: auto;
+}
+
+.new-hero .hero-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.new-hero .hero-description-container .hero-description {
+    font-family: var(--font-family-primary);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light-red);
+    text-align: center;
+}
+
+.new-hero .hero-description-container .hero-quote {
+    font-family: var(--font-family-primary);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--light-red);
+    text-align: center;
+}
+
+.new-hero .hero-description-container .hero-quote span {
+    color: var(--deep-red);
+}
+
+.new-hero .hero-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.new-hero .hero-buttons-container .whats-btn-new-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--deep-red);
+    color: var(--light-red);
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 180px;
+    font-family: var(--font-family-primary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.new-hero .hero-buttons-container .instagram-link-new-hero {
+    font-family: var(--font-family-primary);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--light-green);
+    text-decoration: none;
+    text-align: center;
+}

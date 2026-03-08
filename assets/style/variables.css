@@ -1,0 +1,11 @@
+:root {
+  --deep-green: #14312D;
+  --light-red: #F1E1D4;
+  --deep-red: #B62431;
+  --light-green: #AAA343;
+
+  --font-family-primary: 'Alegreya', serif;
+
+  --content-max-width: 960px;
+  --content-padding-inline: clamp(16px, 4vw, 32px);
+}

@@ -1,6 +1,6 @@
+@import './variables.css';
 @import './main.css';
-@import './header.css';
-@import './hero.css';
-@import './about.css';
-@import './job.css';
-@import './contact.css';
+@import './new-hero.css';
+@import './new-about.css';
+@import './new-how.css';
+@import './new-location.css';
