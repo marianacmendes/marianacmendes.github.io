@@ -1,0 +1,389 @@
+@import './variables.css';
+@import './main.css';
+
+/* Landing page do Google Ads — mobile first.
+   Reaproveita as variáveis, o reset e o .section-container do site. */
+
+body {
+  font-family: var(--font-family-primary);
+  background: var(--deep-green);
+}
+
+/* ---------- elementos compartilhados ---------- */
+
+.lp-whats-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 320px;
+  min-height: 52px;
+  padding: 12px 20px;
+  background: var(--deep-red);
+  color: var(--light-red);
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: var(--font-family-primary);
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.lp-whats-btn:focus-visible {
+  outline: 2px solid var(--light-green);
+  outline-offset: 3px;
+}
+
+.lp-instagram-link {
+  font-family: var(--font-family-primary);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--light-green);
+  text-decoration: none;
+  text-align: center;
+}
+
+.lp-section-title {
+  font-family: var(--font-family-primary);
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ---------- hero ---------- */
+
+.lp-hero {
+  background: var(--deep-green);
+  color: var(--light-red);
+  padding-block: 32px 40px;
+}
+
+.lp-hero .section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lp-hero .lp-hero-logo {
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+
+.lp-hero .lp-hero-name {
+  font-family: var(--font-family-primary);
+  font-size: clamp(26px, 6vw, 34px);
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.lp-hero .lp-hero-role {
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--light-green);
+  margin-top: 4px;
+}
+
+.lp-hero .lp-hero-lead {
+  font-family: var(--font-family-primary);
+  font-size: clamp(17px, 4.5vw, 20px);
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 34ch;
+  margin-top: 20px;
+}
+
+.lp-hero .lp-hero-cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin-top: 28px;
+}
+
+.lp-hero .lp-hero-cta-note {
+  font-family: var(--font-family-primary);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 32ch;
+}
+
+.lp-hero .lp-hero-cta-note strong {
+  font-weight: 700;
+}
+
+.lp-hero .lp-hero-filter {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 32ch;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+/* ---------- quem atende ---------- */
+
+.lp-about {
+  background: var(--light-red);
+  color: var(--deep-green);
+  padding-block: 48px;
+}
+
+.lp-about .section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lp-about .lp-about-photo {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lp-about .lp-section-title {
+  margin-top: 16px;
+}
+
+.lp-about .lp-about-crp {
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.lp-about .lp-about-credentials {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 42ch;
+  margin-top: 24px;
+}
+
+.lp-about .lp-about-credentials li {
+  display: flex;
+  gap: 8px;
+  text-align: left;
+  font-family: var(--font-family-primary);
+  font-size: clamp(16px, 4vw, 18px);
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.lp-about .lp-about-credentials li::before {
+  content: "—";
+  flex: none;
+  color: var(--deep-red);
+}
+
+/* ---------- atendimento / FAQ ---------- */
+
+.lp-faq {
+  background: var(--deep-green);
+  color: var(--light-red);
+  padding-block: 48px;
+}
+
+.lp-faq .section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lp-faq .lp-faq-subtitle {
+  font-family: var(--font-family-primary);
+  font-size: clamp(16px, 4vw, 19px);
+  font-weight: 400;
+  text-align: center;
+  max-width: 40ch;
+  margin-top: 8px;
+}
+
+.lp-faq .lp-faq-list {
+  width: 100%;
+  margin-top: 32px;
+  border-top: 1px solid rgba(241, 225, 212, 0.2);
+}
+
+.lp-faq .lp-faq-item {
+  padding-block: 20px;
+  border-bottom: 1px solid rgba(241, 225, 212, 0.2);
+}
+
+.lp-faq .lp-faq-question {
+  font-family: var(--font-family-primary);
+  font-size: clamp(18px, 4.5vw, 20px);
+  font-weight: 700;
+}
+
+.lp-faq .lp-faq-answer {
+  font-family: var(--font-family-primary);
+  font-size: clamp(16px, 4vw, 18px);
+  font-weight: 400;
+  line-height: 1.55;
+  margin-top: 8px;
+  max-width: 60ch;
+}
+
+.lp-faq .lp-faq-answer + .lp-faq-answer {
+  margin-top: 12px;
+}
+
+.lp-faq .lp-faq-answer strong {
+  font-weight: 700;
+}
+
+.lp-faq .lp-faq-answer a {
+  color: var(--light-green);
+  text-decoration: underline;
+}
+
+/* destaque do item de valores — precisa ficar evidente */
+.lp-faq .lp-faq-item-highlight {
+  border-left: 3px solid var(--deep-red);
+  padding-left: 16px;
+}
+
+/* ---------- contato ---------- */
+
+.lp-contact {
+  background: var(--light-red);
+  color: var(--deep-green);
+  padding-block: 48px;
+}
+
+.lp-contact .section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lp-contact .lp-contact-description {
+  font-family: var(--font-family-primary);
+  font-size: clamp(16px, 4vw, 19px);
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 38ch;
+  margin-top: 12px;
+}
+
+.lp-contact .lp-contact-address {
+  font-family: var(--font-family-primary);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 38ch;
+  margin-top: 20px;
+}
+
+.lp-contact .lp-contact-address a {
+  color: var(--deep-green);
+  text-decoration: underline;
+}
+
+.lp-contact .lp-contact-cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin-top: 28px;
+}
+
+.lp-contact .lp-instagram-link {
+  color: var(--deep-green);
+}
+
+.lp-footer {
+  background: var(--deep-green);
+  color: var(--light-red);
+  padding-block: 24px;
+  text-align: center;
+}
+
+.lp-footer p {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/* ---------- barra fixa de contato (só mobile) ---------- */
+
+.lp-sticky-cta {
+  position: fixed;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding: 10px var(--content-padding-inline);
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+  background: var(--deep-green);
+  border-top: 1px solid rgba(241, 225, 212, 0.2);
+}
+
+.lp-sticky-cta .lp-whats-btn {
+  min-height: 48px;
+  font-size: 16px;
+}
+
+/* espaço para a barra fixa não cobrir o rodapé */
+.lp-footer {
+  padding-bottom: 96px;
+}
+
+/* ---------- desktop ---------- */
+
+@media (min-width: 768px) {
+  .lp-hero {
+    padding-block: 56px 64px;
+  }
+
+  .lp-hero .lp-hero-logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .lp-hero .lp-hero-lead {
+    max-width: 44ch;
+  }
+
+  .lp-about,
+  .lp-faq,
+  .lp-contact {
+    padding-block: 72px;
+  }
+
+  .lp-about .lp-about-credentials {
+    max-width: 52ch;
+  }
+
+  .lp-faq .lp-faq-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+  }
+
+  .lp-faq .lp-faq-item-highlight {
+    grid-column: 1 / -1;
+  }
+
+  .lp-sticky-cta {
+    display: none;
+  }
+
+  .lp-footer {
+    padding-bottom: 24px;
+  }
+}
